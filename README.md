@@ -19,7 +19,7 @@
 * allow port 2200/SSH
 * allow pott 123/NTP
 * Change the SSH port from 22 to 2200
-* login from 
+
 
 ##### 3.Configure the local timezone to UTC.
 ##### 4.Create and configure user grader 
