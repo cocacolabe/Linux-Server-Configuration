@@ -34,7 +34,7 @@ libapache2-mod-wsgi
 postgresql
 python-pip
 
-##### 6.Configure sites-enabled file 
+##### 6.Configure sites-enabled file and enable a new virtual host
 ```sh
  /etc/apache2/sites-enabled$ sudo nano 000-default.conf 
  ```
@@ -79,9 +79,9 @@ application.secret_key='secret_key'
  ```sh
  engine = create_engine('postgresql://catalog:catalog@localhost/catalog')
  ```
-##### 10.Configure and enable a new virtual host
 
-##### 11.Install python packages
+
+##### 10.Install python packages
 flask
 sqlalchemy
 requests
@@ -90,3 +90,8 @@ requests
 /.ssh$ nano authorized_keys
 
 
+### Resources:
+1.Udacity discussion form
+2.Digital Ocean
+3.http://flask.pocoo.org/docs/0.10/deploying/mod_wsgi/
+4.http://docs.sqlalchemy.org/en/latest/core/engines.html#postgresql
